@@ -1,6 +1,7 @@
 package com.gilt.aws.lambda
 
 case class Region(value: String)
+case class Regions(values: Seq[String])
 case class S3BucketId(value: String)
 case class S3Key(value: String)
 case class LambdaName(value: String)
